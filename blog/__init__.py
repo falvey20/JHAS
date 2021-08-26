@@ -7,8 +7,8 @@ from flask_login import LoginManager
 from flask_mail import Mail
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'f2649f17888f9207cf70b025f806567a'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Robin3000@localhost/JHASdb'
+app.config['SECRET_KEY'] = '##########'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:########@localhost/JHASdb'
 
 
 db = SQLAlchemy(app)
